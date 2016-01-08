@@ -7,7 +7,8 @@
     </div >
     <div class="col-lg-4">
         {{ Form::open (array ('action' => 'projectController@returnView')) }}
-        {{Form::text('name')}}<br>
+
+        {{Form::text('name', null,array('placeholder'=>'name'))}}<br>
         {{Form::text('name')}}<br>
         {{Form::text('name')}}<br>
         {{Form::text('name')}}<br>

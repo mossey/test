@@ -55,7 +55,7 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      =>  'localhost',
-            'database'  => 'mysql',
+            'database'  => 'test',
             'username'  => 'root',
             'password'  => 'qwerty41',
             'charset'   => 'utf8',
